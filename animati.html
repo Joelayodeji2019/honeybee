@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+		button{
+			width: 16px;
+			height: 16px;
+			background-color: green;
+			border-radius: 100%;
+			border: none;
+			animation-name: joo;
+			animation-duration: 1s;
+			position: relative;
+			animation-timing-function: ease;
+			animation-iteration-count: infinite;
+		}
+		.ada {
+			height: 300px;
+			width: 70%;
+			background-color: green;
+		}
+
+
+		@keyframes joo{
+
+			0%{
+				background-color: green;
+			/*	margin-left: 0px;*/
+			}
+			50%{
+				background-color: blue;
+				/*argin-left:  1300px;*/
+			}
+			100%{
+				background-color: green;
+	/*			margin-left: 0px;*/
+			}
+		}
+
+
+		/* (min-width:300px;)*/ @media screen and (min-width:300px) and (max-width:700px){
+
+
+
+			.ada {
+				/*width: 100%;*/
+				background-color: red;
+				width: 10%;
+			
+			}
+			/*body{
+				background-color: yellow;
+			}*/
+		}
+	</style>
+	<title>animation</title>
+	<div class="ada"></div>
+</head>
+<body>
+<button></button>
+</body>
+</html>
